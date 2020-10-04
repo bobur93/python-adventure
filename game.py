@@ -91,3 +91,49 @@ while(decision == ""):
 print()
 time.sleep(1)
 #            ---section end---           #
+
+#  ---Section Author: <Mirbobur>--- #
+print("There is a warrior who stands in your way!")
+print("1. Fight him")
+print("2. Try negotiating with him")
+print()
+decision = ""
+while(decision == ""):
+    decision = input ("Pick a number: ")
+    print()
+    if (decision == "1"):
+        print("You got injured but you steal his money!!!")
+        player_health -= 20
+        print("Your health now:")
+        print(player_health)
+    elif (decision == "2"):
+        print("You are able to get him to work with you on your mission")
+        player_items.append("Warrior")
+        print("Your items now:")
+        print(player_items)
+print()
+time.sleep(1)
+#            ---section end---
+
+#    ---Section Author: <your-name>---  #
+print("There is a beautiful girl in front of you!")
+print("1. Hug her!")
+print("2. Ignore her")
+print()
+decision = ""
+while(decision == ""):
+    decision = input("Pick a number: ")
+    print()
+    if (decision == "1"):
+        print("You are fall in love with her!!!")
+        player_health -= 49
+        print("Your health now:")
+        print(player_health)
+    elif (decision == "2"):
+        print("You have no feelings to her")
+        player_items.appemd("girl")
+        print("Your itmes now:")
+        print(player_items)
+print()
+time.sleep(1)
+#           ---Section end---     #            
